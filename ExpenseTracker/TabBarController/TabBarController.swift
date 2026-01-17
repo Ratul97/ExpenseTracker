@@ -19,10 +19,10 @@ class TabBarController: UITabBarController {
         setupTabBar()
         setupCenterButton()
         
-        let navigationBarAppearance = UINavigationBarAppearance()
-        navigationBarAppearance.configureWithDefaultBackground()
-        navigationBarAppearance.backgroundColor = .tertiarySystemBackground
-        UINavigationBar.appearance().scrollEdgeAppearance = navigationBarAppearance
+//        let navigationBarAppearance = UINavigationBarAppearance()
+//        navigationBarAppearance.configureWithDefaultBackground()
+//        navigationBarAppearance.backgroundColor = .tertiarySystemBackground
+//        UINavigationBar.appearance().scrollEdgeAppearance = navigationBarAppearance
     }
     
     override func viewDidLayoutSubviews() {
